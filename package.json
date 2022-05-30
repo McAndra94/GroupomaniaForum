@@ -1,0 +1,66 @@
+{
+  "name": "groupomania",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.5",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.8.3",
+    "dayjs": "^1.11.2",
+    "express": "^4.18.1",
+    "firebase": "^9.8.2",
+    "firebase-admin": "^10.2.0",
+    "firestore-export-import": "^1.1.0",
+    "json-loader": "^0.5.7",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "vee-validate": "^4.5.11",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "no-unused-vars": "warn",
+      "vue/multi-word-component-names": 0,
+      "vue/no-deprecated-router-link-tag-prop": 0,
+      "vue/no-multiple-template-root": 0,
+      "vue/no-dupe-keys": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
