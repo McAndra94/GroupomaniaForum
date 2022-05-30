@@ -28,7 +28,7 @@
       </div>
 
       <div class="form-group">
-        <label for="user_bio">Bio</label>
+        <label for="user_bio">Description</label>
         <textarea
           v-model="activeUser.bio"
           class="form-input"
@@ -37,22 +37,7 @@
         ></textarea>
       </div>
 
-      <div class="stats">
-        <span>{{ user.postsCount }} posts</span>
-        <span>{{ user.threadsCount }} threads</span>
-      </div>
-
       <hr />
-
-      <div class="form-group">
-        <label class="form-label" for="user_website">Website</label>
-        <input
-          v-model="activeUser.website"
-          autocomplete="off"
-          class="form-input"
-          id="user_website"
-        />
-      </div>
 
       <div class="form-group">
         <label class="form-label" for="user_email">Email</label>
@@ -63,17 +48,6 @@
           id="user_email"
         />
       </div>
-
-      <div class="form-group">
-        <label class="form-label" for="user_location">Location</label>
-        <input
-          v-model="activeUser.location"
-          autocomplete="off"
-          class="form-input"
-          id="user_location"
-        />
-      </div>
-
       <div class="btn-group space-between">
         <button class="btn-ghost" @click="cancel">Cancel</button>
         <button type="submit" class="btn-blue">Save</button>
