@@ -82,13 +82,11 @@
           Valider
         </button>
       </form>
-      <br />
-      <br />
+
       <p>
         Vous avez déjà un compte ?
         <router-link to="/">Connectez-vous </router-link>
       </p>
-      <br />
     </div>
   </div>
 </template>

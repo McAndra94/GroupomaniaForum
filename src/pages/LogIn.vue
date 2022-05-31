@@ -39,22 +39,27 @@
         >
           Valider
         </button>
-
-        <br />
-        <p>
-          Mot de passe oublié ?<router-link to="/">Cliquez ici</router-link>
-        </p>
-        <p>
-          Pas encore de compte ?<router-link to="/signup"
-            >Inscrivez-vous</router-link
-          >
-        </p>
       </div>
     </form>
+
+    <p>
+      Mot de passe oublié ?<router-link to="/">&emsp;Cliquez ici</router-link>
+    </p>
+    <hr />
+    <p>
+      Pas encore de compte ?<router-link to="/signup"
+        >&emsp;Inscrivez-vous</router-link
+      >
+    </p>
   </div>
 </template>
 
 <script>
+/* import { getFirestore, collection, addDoc } from "firebase/firestore/lite";
+import { initializeApp } from "firebase/app";
+import firebaseConfig from "../config/firebase";
+const fireApp = initializeApp(firebaseConfig);
+const db = getFirestore(fireApp); */
 export default {
   data() {
     return {
